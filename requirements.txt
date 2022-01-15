@@ -1,2 +1,3 @@
-pypostgresql
+py-postgresql
 python-dotenv
+sqlalchemy
