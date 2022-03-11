@@ -29,7 +29,8 @@ def connect_db_postgres(dotenv_path=os.path.expanduser("~/.env")):
     
     
     # definindo string de conexao com o banco de dados postgres
-    str_connection = f"postgresql+pypostgresql://{_user}:{_paswd}@{_host}:{_port}/{_db}"
+   # str_connection = f"postgresql+pypostgresql://{_user}:{_paswd}@{_host}:{_port}/{_db}"
+    str_connection = f"postgresql+psycopg2://{_user}:{_paswd}@{_host}:{_port}/{_db}"
 
     # criando a conexao com o banco de dados postgres
     con = sqlalchemy.create_engine(str_connection)
