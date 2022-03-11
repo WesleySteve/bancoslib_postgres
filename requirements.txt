@@ -1,3 +1,4 @@
-py-postgresql
+# py-postgresql
+psycopg2
 python-dotenv
 sqlalchemy
