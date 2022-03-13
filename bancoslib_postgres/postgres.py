@@ -21,11 +21,11 @@ def connect_db_postgres(dotenv_path=os.path.expanduser("~/.env")):
     dotenv.load_dotenv(dotenv_path)
 
     # importando as variaveis de ambiente
-    _host = os.getenv("POSTGRES_HOST")
-    _port = os.getenv("POSTGRES_PORT")
-    _user = os.getenv("POSTGRES_USER")
+    _host =  os.getenv("POSTGRES_HOST")
+    _port =  os.getenv("POSTGRES_PORT")
+    _user =  os.getenv("POSTGRES_USER")
     _paswd = os.getenv("POSTGRES_PASSWORD")
-    _db = os.getenv("POSTGRES_DB")
+    _db =    os.getenv("POSTGRES_DB")
     
     
     # definindo string de conexao com o banco de dados postgres

@@ -11,7 +11,6 @@ no banco de dados Postegres
   - │   └── postgres.py
   - ├── Makefile
   - ├── README.md
-  - ├── requirements-dev.txt
   - ├── requirements.txt
   - └── setup.py
 

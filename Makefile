@@ -16,11 +16,6 @@ format:
 
 install:
 	pip3 install .
-
-	
-
-installdev:
-	pip3 install -e .['dev']
 	
 
 uninstall:
