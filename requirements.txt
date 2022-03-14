@@ -1,3 +1,2 @@
 py-postgresql
 # psycopg2
-python-dotenv
